@@ -1,0 +1,401 @@
+CRITICAL - 2020-12-26 00:04:08 --> Undefined variable: config
+#0 C:\xampp\htdocs\belajar\app\Views\auth\login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\Home.php(7): view('auth/login')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 02:25:37 --> Undefined property: App\Controllers\User::$SbarangModel
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 02:30:33 --> Allowed fields must be specified for model: App\Models\SbarangModel
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Sbar...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 02:35:13 --> Column 'hargabarang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:36:37 --> Unknown column 'namabarang' in 'field list'
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:37:52 --> Column 'hargabarang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:38:23 --> Column 'hargabarang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:40:45 --> Column 'hargabarang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:49:09 --> Column 'hargabarang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 02:50:00 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 02:54:03 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 03:32:31 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 03:35:24 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 03:41:20 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 03:45:16 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 03:48:10 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(112): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 04:29:38 --> Column 'nama_barang' cannot be null
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sb...')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sb...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sb...')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sb...', Array, false)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\belajar\app\Controllers\User.php(119): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-26 04:49:00 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/input', Array, true)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(39): view('user/input', Array)
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->input()
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-26 04:53:08 --> Call to undefined function form_error()
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/input', Array, true)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(39): view('user/input', Array)
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->input()
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-26 05:30:31 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:31:31 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:32:43 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:35:45 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:38:44 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:40:25 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:43:49 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:44:07 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:46:38 --> Call to undefined method App\Models\JbarangModel::save1
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('save1', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->save1()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 05:55:33 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:08:46 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:09:16 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:09:23 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:13:37 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:19:44 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:21:21 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:21:48 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:29:24 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 06:39:21 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 07:19:20 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 07:19:34 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-26 07:20:21 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

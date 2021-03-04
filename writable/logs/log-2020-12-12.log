@@ -1,0 +1,11 @@
+CRITICAL - 2020-12-12 05:42:16 --> Undefined variable: config
+#0 C:\xampp\htdocs\belajar\app\Views\auth\login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\Home.php(7): view('auth/login')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

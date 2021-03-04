@@ -1,0 +1,35 @@
+CRITICAL - 2020-12-10 00:18:15 --> Undefined variable: row
+#0 C:\xampp\htdocs\belajar\app\Views\user\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(7): view('user/index')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-10 00:18:21 --> Undefined variable: row
+#0 C:\xampp\htdocs\belajar\app\Views\user\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(7): view('user/index')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-10 20:08:04 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajar\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\belajar\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#5 C:\xampp\htdocs\belajar\vendor\myth\auth\src\Controllers\AuthController.php(85): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptLogin()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

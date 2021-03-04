@@ -1,0 +1,266 @@
+CRITICAL - 2020-12-29 05:55:54 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-29 07:57:53 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-29 09:25:44 --> Undefined variable: sell
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:26:21 --> Undefined variable: user
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:28:10 --> Undefined index: id_jual
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:29:56 --> Undefined index: id
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:30:48 --> Undefined index: nama_barang
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:31:40 --> Undefined index: nama_barang
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:33:16 --> Undefined index: hargabarang
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:33:56 --> Undefined index: nproduk
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:34:06 --> Undefined index: id
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:35:28 --> Undefined index: id_jual
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:36:55 --> Undefined index: jbarang
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:36:56 --> Undefined index: jbarang
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:37:14 --> Undefined index: 
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(50): view('user/penjualan', Array)
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->penjualan()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:38:37 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): redirect('user/penjualan')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-29 09:38:48 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): redirect('user/penjualan')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-29 09:38:53 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): redirect('user/penjualan')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-29 09:39:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): redirect('/user/penjualan')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-29 09:40:19 --> Undefined variable: title
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/user/penjualan', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): view('/user/penjualan')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:40:30 --> Undefined variable: title
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/user/penjualan', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): view('/user/penjualan')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('soto daging')
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:41:19 --> Undefined variable: title
+#0 C:\xampp\htdocs\belajar\app\Views\user\penjualan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('/user/penjualan', Array, true)
+#3 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): view('/user/penjualan')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('1')
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-29 09:41:55 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\belajar\app\Controllers\User.php(139): redirect('/user/penjualan')
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->sell('2')
+#4 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-29 10:33:28 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(127): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-29 10:43:08 --> Call to undefined method App\Models\JbarangModel::out
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(134): CodeIgniter\Model->__call('out', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->out()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-29 21:51:05 --> Call to undefined method App\Models\JbarangModel::out
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(130): CodeIgniter\Model->__call('out', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->out()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

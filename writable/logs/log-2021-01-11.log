@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-11 07:02:22 --> Undefined variable: judul
+#0 C:\Users\hp\Desktop\belajar\app\Views\home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\hp\\Des...', 5, Array)
+#1 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\hp\\Des...')
+#2 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\Users\hp\Desktop\belajar\app\Controllers\Pages.php(12): view('home/index')
+#4 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\hp\Desktop\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\hp\\Des...')
+#9 {main}
+CRITICAL - 2021-01-11 07:02:34 --> Undefined variable: judul
+#0 C:\Users\hp\Desktop\belajar\app\Views\home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\hp\\Des...', 5, Array)
+#1 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\Users\\hp\\Des...')
+#2 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\Users\hp\Desktop\belajar\app\Controllers\Pages.php(12): view('home/index')
+#4 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\hp\Desktop\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\hp\Desktop\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\hp\\Des...')
+#9 {main}

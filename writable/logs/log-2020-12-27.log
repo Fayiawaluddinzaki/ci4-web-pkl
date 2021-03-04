@@ -1,0 +1,16 @@
+CRITICAL - 2020-12-27 08:09:28 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-27 08:22:53 --> Call to undefined method App\Models\JbarangModel::keluar
+#0 C:\xampp\htdocs\belajar\app\Controllers\User.php(140): CodeIgniter\Model->__call('keluar', Array)
+#1 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->keluar()
+#2 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\belajar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
